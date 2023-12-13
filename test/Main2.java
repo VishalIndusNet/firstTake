@@ -39,11 +39,7 @@ class Student implements Comparable<Student> {
             return Double.compare(this.percentage, o.percentage);
         }
         public String toString() {
-        return "Student{" +
-                "studentName='" + studentName + '\'' +
-                ", percentage=" + percentage +
-                ", department='" + department + '\'' +
-                '}';
+      return "studentName: "+this.studentName+ " percentage: "+this.percentage+" department: "+this.department;
     }
           
 }
